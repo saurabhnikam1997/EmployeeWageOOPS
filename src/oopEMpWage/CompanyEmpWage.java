@@ -1,7 +1,6 @@
 package oopEMpWage;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 
 class CompanyEmpWage {

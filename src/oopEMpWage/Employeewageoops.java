@@ -13,6 +13,7 @@ class Employeewageoops implements InEmployeewageoops {
 	  ArrayList<Integer> dailyWage = new ArrayList<Integer>();
 	  ArrayList<CompanyEmpWage> CompanyEmpWageArrayList;
 	  HashMap<String, CompanyEmpWage> CompanyEmpWageMap;
+	private static Scanner input;
 
 	  public Employeewageoops() {
 	  CompanyEmpWageArrayList = new ArrayList<>();
@@ -69,7 +70,7 @@ class Employeewageoops implements InEmployeewageoops {
 
 	  public static void main(String[] args) {
 	  Employeewageoops empWageBuilder = new Employeewageoops();
-	  Scanner input = new Scanner(System.in); //scanner object 
+	  input = new Scanner(System.in);
 	  System.out.println("Enter the company name:");
 	  String company = input.nextLine();
 	  System.out.println("Enter employee rate per hour:");
